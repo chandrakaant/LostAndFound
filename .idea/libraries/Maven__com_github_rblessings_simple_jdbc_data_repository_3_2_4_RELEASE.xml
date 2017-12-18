@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.rblessings:simple-jdbc-data-repository:3.2.4-RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/rblessings/simple-jdbc-data-repository/3.2.4-RELEASE/simple-jdbc-data-repository-3.2.4-RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/rblessings/simple-jdbc-data-repository/3.2.4-RELEASE/simple-jdbc-data-repository-3.2.4-RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/rblessings/simple-jdbc-data-repository/3.2.4-RELEASE/simple-jdbc-data-repository-3.2.4-RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
