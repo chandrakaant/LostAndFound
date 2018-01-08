@@ -1,6 +1,6 @@
 package com;
 
-import com.service.StorageService;
+import com.service.ItemService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 public class MyApplication implements CommandLineRunner {
 
     @Resource
-    StorageService storageService;
+    ItemService itemService;
 
 
     public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class MyApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        storageService.deleteAll();
-        storageService.init();
+        itemService.deleteAll();
+        itemService.init();
     }
 }

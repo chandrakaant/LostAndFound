@@ -1,4 +1,4 @@
-package com.model;
+package com.model.user;
 
 import com.custom.ValidEmail;
 import org.hibernate.validator.constraints.NotEmpty;

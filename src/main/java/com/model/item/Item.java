@@ -1,4 +1,4 @@
-package com.model;
+package com.model.item;
 
 
 
@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 @Entity
-@Table(name = "items")
+@Table(name = "item")
 public class Item{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
